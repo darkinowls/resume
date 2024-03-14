@@ -1,36 +1,24 @@
 import {
   faGithub,
-  faInstagram,
   faLinkedin,
-  faNpm,
-  faTwitter,
+  faTelegram,
 } from '@fortawesome/free-brands-svg-icons';
 import { CMSLink } from 'edit-me/types/CMSLink';
 
 export const links: CMSLink[] = [
   {
-    href: 'https://github.com',
+    href: 'https://github.com/Darkinowls',
     icon: faGithub,
     title: 'GitHub',
   },
   {
-    href: 'https://www.instagram.com',
-    icon: faInstagram,
-    title: 'Instagram',
+    href: 'https://t.me/DarkInOwls',
+    icon: faTelegram,
+    title: 'Telegram',
   },
   {
-    href: 'https://www.linkedin.com',
+    href: 'www.linkedin.com/in/denys-chernousov-741b81198',
     icon: faLinkedin,
     title: 'LinkedIn',
-  },
-  {
-    href: 'https://www.npmjs.com',
-    icon: faNpm,
-    title: 'NPM',
-  },
-  {
-    href: 'https://twitter.com',
-    icon: faTwitter,
-    title: 'Twitter',
   },
 ];

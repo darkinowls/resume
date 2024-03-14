@@ -15,8 +15,10 @@ export const ContactInformation: React.FC<ContactInformationProps> = ({
       <SectionHeading icon={faIdCard} level={3} text="Contact Information" />
 
       <ul className="mt-2">
-        <li>
+        <li className="div">
           <strong>Location:</strong> {personal.location}
+          {/*<strong>Email:</strong> {personal.email}*/}
+          {/*<strong>Telegram:</strong> {personal.telegram}*/}
         </li>
 
         {/* private access required */}
