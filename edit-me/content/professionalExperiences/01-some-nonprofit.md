@@ -1,5 +1,5 @@
 ---
-title: Arbitration application developer
+title: Flutter + Python developer
 organization: Gentleman's code
 startDate: June 2023
 endDate: November 2023
