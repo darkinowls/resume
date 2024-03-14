@@ -31,6 +31,9 @@ export const Footer: React.FC = () => {
         <div className="mt-6">
           Copyright ©{new Date().getFullYear()} {fullName}
         </div>
+        <div>
+          <a href={'https://darkinowls.web.app/'}>Previous site</a>
+        </div>
       </div>
     </footer>
   );

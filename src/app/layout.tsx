@@ -36,7 +36,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
   const host = headers().get('host');
   const baseURL = `${protocol}://${host || vercelURL}`;
   const siteName = `${fullName} Professional Résumé`;
-  const title = `Résumé | ${fullName} | Somewhere`;
+  const title = `${fullName} | Résumé `;
   const description = `Professional résumé for ${fullName}.`;
 
   return {

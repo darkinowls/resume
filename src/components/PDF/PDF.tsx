@@ -251,7 +251,7 @@ const PDF: React.FC<PDFProps> = ({ privateInformation }) => {
 
   return (
     // @ts-ignore
-    <Document author={fullName} title={`Résume for ${fullName}, ${year}`}>
+    <Document author={fullName} title={`Résume of ${fullName}, ${year}`}>
       {/* @ts-ignore */}
       <Page size="LETTER" style={styles.page}>
         <View style={styles.sidebar}>
@@ -275,6 +275,14 @@ const PDF: React.FC<PDFProps> = ({ privateInformation }) => {
               <View style={styles.flexRow}>
                 <Text style={styles.bold}>Location:</Text>
                 <Text>&nbsp;{personal.location}</Text>
+              </View>
+              <View style={styles.flexRow}>
+                <Text style={styles.bold}>Email:</Text>
+                <Text>&nbsp;{personal.email}</Text>
+              </View>
+              <View style={styles.flexRow}>
+                <Text style={styles.bold}>Telegram:</Text>
+                <Text>&nbsp;@{personal.telegram}</Text>
               </View>
               {privateInformation?.map((privateField) => (
                 <View key={privateField._id}>
@@ -304,6 +312,19 @@ const PDF: React.FC<PDFProps> = ({ privateInformation }) => {
                 </View>
               ))}
             </View>
+            <View style={styles.sectionHeading}>
+              <CirclePaintbrush size={fontSizes.m} />
+              <Text>{additionalInfo.title}</Text>
+            </View>
+            <Html
+              {...htmlProps}
+              stylesheet={{
+                ...htmlProps.stylesheet,
+                p: { marginBottom: spacers[1] },
+              }}
+            >
+              {additionalInfo.body.html}
+            </Html>
           </View>
         </View>
         <View style={styles.main}>
@@ -352,21 +373,6 @@ const PDF: React.FC<PDFProps> = ({ privateInformation }) => {
                 <Html {...htmlProps}>{achievement.body.html}</Html>
               </View>
             ))}
-          </View>
-          <View style={styles.section}>
-            <View style={styles.sectionHeading}>
-              <CirclePaintbrush size={fontSizes.m} />
-              <Text>{additionalInfo.title}</Text>
-            </View>
-            <Html
-              {...htmlProps}
-              stylesheet={{
-                ...htmlProps.stylesheet,
-                p: { marginBottom: spacers[1] },
-              }}
-            >
-              {additionalInfo.body.html}
-            </Html>
           </View>
         </View>
       </Page>
