@@ -17,6 +17,7 @@ import { fullName } from 'src/helpers/utils';
 import { twMerge } from 'tailwind-merge';
 import { ThemeSetting } from '../../edit-me/types/Config';
 import './globals.css';
+import Head from 'next/head';
 
 const accentColor = resumeConfig.accentColor;
 
@@ -35,9 +36,9 @@ const jetBrainsMono = JetBrains_Mono({
 export const generateMetadata = async (): Promise<Metadata> => {
   const host = headers().get('host');
   const baseURL = `${protocol}://${host || vercelURL}`;
-  const siteName = `${fullName} Professional Résumé`;
-  const title = `${fullName} | Résumé `;
-  const description = `Professional résumé for ${fullName}.`;
+  const siteName = `${fullName} Professional Resume`;
+  const title = `${fullName} | Resume `;
+  const description = siteName;
 
   return {
     metadataBase: new URL(baseURL),
@@ -46,7 +47,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     creator: fullName,
     description,
     generator: 'Next.js',
-    keywords: ['resume', fullName, 'next.js', 'pdf'],
+    keywords: ['python', fullName, 'flutter', 'chernousov'],
     openGraph: {
       type: 'profile',
       firstName: personal.givenName,
@@ -83,6 +84,10 @@ const RootLayout: React.FC<PropsWithChildren> = async ({ children }) => {
         resumeConfig.appTheme === ThemeSetting.Dark && 'dark',
       )}
     >
+      <Head>
+        <link rel="shortcut icon" href="/edit-me/favicon.png" />
+      </Head>
+
       <body className="bg-neutral-1 text-neutral-12 selection:bg-accent-11 selection:text-neutral-1">
         {children}
       </body>

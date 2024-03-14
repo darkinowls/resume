@@ -1,6 +1,6 @@
 ---
 title: Arbitration application developer
-organization: Alexey Udovenko
+organization: Gentleman's code
 startDate: June 2023
 endDate: November 2023
 ---

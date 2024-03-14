@@ -1,6 +1,6 @@
 ---
 title: Full Stack Mobile Developer
-organization: Alexey Udovenko
+organization: Gentleman's code
 startDate: December 2023
 endDate: February 2024
 ---
