@@ -1,8 +1,12 @@
 ---
-givenName: Stacy
-familyName: Fakename
-title: Official Job Title
-location: Austin, TX
+givenName: Denys
+familyName: Chernousov
+title: Software Engineer
+location: Kyiv, Ukraine
+telegram: @darkinowls
+email: blackinowls@gmail.com
+github: darkinowls
+
 twitterUsername: stacy_fakename
 ---
 
