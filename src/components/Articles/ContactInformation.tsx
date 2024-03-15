@@ -22,7 +22,16 @@ export const ContactInformation: React.FC<ContactInformationProps> = ({
           <strong>Email:</strong> {personal.email}
         </li>
         <li>
-          <strong>Telegram:</strong> {'@' + personal.telegram}
+          <strong>Telegram:</strong>{' '}
+          <a target="_blank" href={'https://t.me/' + personal.telegram}>
+            {'@' + personal.telegram}
+          </a>
+        </li>
+        <li>
+          <strong>Github:</strong>{' '}
+          <a target="_blank" href={'https://github.com/' + personal.github}>
+            {personal.github}
+          </a>
         </li>
 
         {/* private access required */}

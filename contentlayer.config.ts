@@ -36,6 +36,11 @@ export const Personal = defineDocumentType(() => ({
       description: 'Your Telegram username without the "@" symbol',
       required: true,
     },
+    github: {
+      type: 'string',
+      description: 'Your Github username',
+      required: true,
+    },
     twitterUsername: {
       type: 'string',
       description: 'Your Twitter username without the "@" symbol',

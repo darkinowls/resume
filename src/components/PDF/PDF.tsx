@@ -4,6 +4,7 @@ import {
   Document,
   Font,
   Page,
+  Link,
   StyleSheet,
   Text,
   View,
@@ -282,7 +283,19 @@ const PDF: React.FC<PDFProps> = ({ privateInformation }) => {
               </View>
               <View style={styles.flexRow}>
                 <Text style={styles.bold}>Telegram:</Text>
-                <Text>&nbsp;@{personal.telegram}</Text>
+                <Text>
+                  <Link src={'https://t.me/' + personal.telegram}>
+                    @{personal.telegram}
+                  </Link>
+                </Text>
+              </View>
+              <View style={styles.flexRow}>
+                <Text style={styles.bold}>Github:</Text>
+                <Text>
+                  <Link src={'https://github.com/' + personal.github}>
+                    {personal.github}
+                  </Link>
+                </Text>
               </View>
               {privateInformation?.map((privateField) => (
                 <View key={privateField._id}>

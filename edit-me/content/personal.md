@@ -4,6 +4,7 @@ familyName: Chernousov
 title: Software Engineer
 location: Kyiv, Ukraine
 telegram: darkinowls
+github: darkinowls
 email: blackinowls@gmail.com
 ---
 
