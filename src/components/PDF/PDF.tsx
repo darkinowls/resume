@@ -284,6 +284,7 @@ const PDF: React.FC<PDFProps> = ({ privateInformation }) => {
               <View style={styles.flexRow}>
                 <Text style={styles.bold}>Telegram:</Text>
                 <Text>
+                  &nbsp;
                   <Link src={'https://t.me/' + personal.telegram}>
                     @{personal.telegram}
                   </Link>
@@ -292,6 +293,7 @@ const PDF: React.FC<PDFProps> = ({ privateInformation }) => {
               <View style={styles.flexRow}>
                 <Text style={styles.bold}>Github:</Text>
                 <Text>
+                  &nbsp;
                   <Link src={'https://github.com/' + personal.github}>
                     {personal.github}
                   </Link>
