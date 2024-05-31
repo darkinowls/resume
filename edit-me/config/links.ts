@@ -17,7 +17,7 @@ export const links: CMSLink[] = [
     title: 'Telegram',
   },
   {
-    href: 'www.linkedin.com/in/denys-chernousov-741b81198',
+    href: 'https://www.linkedin.com/in/denys-chernousov-741b81198',
     icon: faLinkedin,
     title: 'LinkedIn',
   },

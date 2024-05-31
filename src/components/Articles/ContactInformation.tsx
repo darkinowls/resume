@@ -19,7 +19,7 @@ export const ContactInformation: React.FC<ContactInformationProps> = ({
           <strong>Location:</strong> {personal.location}
         </li>
         <li>
-          <strong>Email:</strong> {personal.email}
+          <strong>Emails:</strong> {personal.emails}
         </li>
         <li>
           <strong>Telegram:</strong>{' '}

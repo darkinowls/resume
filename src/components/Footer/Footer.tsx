@@ -31,9 +31,10 @@ export const Footer: React.FC = () => {
         <div className="mt-6">
           Copyright ©{new Date().getFullYear()} {fullName}
         </div>
+        <div></div>
         <div>
-          <a target="_blank" href={'https://darkinowls.web.app/'}>
-            Previous site
+          <a target="_blank" href={'https://darkinowls.com/'}>
+            Return to top! To darkinowls.com!
           </a>
         </div>
       </div>

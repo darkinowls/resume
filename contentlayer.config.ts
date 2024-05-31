@@ -26,9 +26,9 @@ export const Personal = defineDocumentType(() => ({
         'Your general location of residence, not your personal address',
       required: true,
     },
-    email: {
+    emails: {
       type: 'string',
-      description: 'email',
+      description: 'emails',
       required: true,
     },
     telegram: {

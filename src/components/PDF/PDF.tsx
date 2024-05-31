@@ -252,7 +252,7 @@ const PDF: React.FC<PDFProps> = ({ privateInformation }) => {
 
   return (
     // @ts-ignore
-    <Document author={fullName} title={`Résume of ${fullName}, ${year}`}>
+    <Document author={fullName} title={`Resume of ${fullName}, ${year}`}>
       {/* @ts-ignore */}
       <Page size="LETTER" style={styles.page}>
         <View style={styles.sidebar}>
@@ -279,7 +279,7 @@ const PDF: React.FC<PDFProps> = ({ privateInformation }) => {
               </View>
               <View style={styles.flexRow}>
                 <Text style={styles.bold}>Email:</Text>
-                <Text>&nbsp;{personal.email}</Text>
+                <Text>&nbsp;{personal.emails}</Text>
               </View>
               <View style={styles.flexRow}>
                 <Text style={styles.bold}>Telegram:</Text>

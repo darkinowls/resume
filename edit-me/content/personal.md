@@ -2,10 +2,10 @@
 givenName: Denys
 familyName: Chernousov
 title: Software Engineer
-location: Kyiv, Ukraine
+location: Ukraine
 telegram: darkinowls
 github: darkinowls
-email: blackinowls@gmail.com
+emails: blackinowls@gmail.com darkinowls@gmail.com
 ---
 
 Always learning and trying to be better!🕺

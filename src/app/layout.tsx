@@ -48,7 +48,15 @@ export const generateMetadata = async (): Promise<Metadata> => {
     creator: fullName,
     description,
     generator: 'Next.js',
-    keywords: ['python', fullName, 'flutter', 'chernousov'],
+    keywords: [
+      'python',
+      fullName,
+      'flutter',
+      'Chernousov',
+      'Denys',
+      'developer',
+      'software enginner',
+    ],
     openGraph: {
       type: 'profile',
       firstName: personal.givenName,
