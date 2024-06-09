@@ -12,3 +12,4 @@ I constantly strive to improve my skills and knowledge. I have completed a numbe
 - [Celery with Django](https://ua.udemy.com/certificate/UC-a58cea2e-8ad0-4441-b350-878e5e6d28da/) from Udemy in 2023. 🎉
 - [React Django DRF Channels](https://ua.udemy.com/certificate/UC-b204a8ce-486e-4e1a-82fa-f983f6f056c6/) from Udemy in 2023. 🎉
 - [Django REST API](https://ua.udemy.com/certificate/UC-a3c38859-62b0-4b25-acbb-6cacd1681a0f/) from Udemy in 2023. 🎉
+- [Grafana+Prometheus+Loki](https://ua.udemy.com/certificate/UC-2c00b034-1214-4715-b3b0-de4d97429eab/) from Udemy in 2024. 🎉
