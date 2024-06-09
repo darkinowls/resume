@@ -1,7 +1,7 @@
 ---
 achievement: Certifications
 organization: Empat and Udemy
-completionYear: 2023-2024
+completionYear: 2024
 ---
 
 I constantly strive to improve my skills and knowledge. I have completed a number of courses and certifications, including:
