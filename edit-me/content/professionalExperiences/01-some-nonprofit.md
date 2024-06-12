@@ -1,12 +1,16 @@
 ---
-title: Flutter + Python developer
+title: Full Stack (Flutter+Python) Developer
 organization: Gentleman's code
-startDate: June 2023
+startDate: August 2022
 endDate: November 2023
 ---
 
-Developed arbitration applications with Flutter and FastApi. The main idea of the apps is to trick Google play and deploy mobile applications with a casino inside.
+Developed apps like [android](https://play.google.com/store/apps/details?id=ru.promocod.app) and [ios](https://apps.apple.com/us/app/%D0%BF%D1%80%D0%BE%D0%BC%D0%BE%D0%BA%D0%BE%D0%B4%D1%8B-%D0%B8-%D1%82%D0%BE%D1%87%D0%BA%D0%B0/id6455941382).
+The system is based on the Django server and Flutter mobile application.
 
-- Developed and deployed simple backends using FastApi. 🎉
-- Developed twisted mobile games using Flutter. 🎉
+- Developed the backend part of the system using Django from zero. 🎉
+- Developed and supported the mobile application using Flutter. 🎉
+- Deployed systems to the Cloud and Mobile stores. Set up CI/CD with Codemagic (Mobile app) and Github-actions (Backend). 🎉
+- Work together with the frontend-developer and a designer to create apps. 🎉
+- Developed arbitration applications using Flutter. 🎉
 - Integrated Keitaro, Appsflayer and my backends. 🎉
