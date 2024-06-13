@@ -12,5 +12,4 @@ The system is based on the Django server and Flutter mobile application.
 - Developed and supported the mobile application using Flutter. 🎉
 - Deployed systems to the Cloud and Mobile stores. Set up CI/CD with Codemagic (Mobile app) and Github-actions (Backend). 🎉
 - Work together with the frontend-developer and a designer to create apps. 🎉
-- Developed arbitration applications using Flutter. 🎉
-- Integrated Keitaro, Appsflayer and my backends. 🎉
+- Developed arbitration applications using Flutter Keitaro, Appsflayer and my backends. 🎉
