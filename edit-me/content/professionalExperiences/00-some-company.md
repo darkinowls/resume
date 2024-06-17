@@ -13,4 +13,4 @@ Switched to Full Stack JS Developer.
 - Developed telegram bots with Typescript, Telegraf, Puppeteer(Web scraping) for crypto industry 🎉
 - Supported Nest.js microservices (Mongoose, Swagger, Graphql, Typescript, PayPal, gRPC/TCP/RabbitMQ, Nginx,
   docker-compose) 🎉
-- Developed a private analytical platform using node.js, ClickHouse, Grafana, apis (Binance, OXK) and react PWA 🎉
+- Developed a private analytical platform using node.js, ClickHouse, Grafana, apis (Binance, OXK, CoinMarketCap) and a React PWA 🎉
