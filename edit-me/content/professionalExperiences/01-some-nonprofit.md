@@ -1,7 +1,7 @@
 ---
 title: Flutter+React/RN+Python Developer
 organization: Gentleman's code
-startDate: August 2022
+startDate: July 2021
 endDate: November 2023
 ---
 
