@@ -1,5 +1,5 @@
 ---
-achievement: Bachelor of Software Engineering
+achievement: Master of Software Engineering
 organization: Igor Sikorsky Kyiv Polytechnic Institute
 ---
 
