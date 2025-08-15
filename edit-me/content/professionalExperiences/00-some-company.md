@@ -1,16 +1,11 @@
 ---
 title: Full Stack JS Developer
-organization: Gentleman's code
-startDate: November 2023
-endDate: Now
+organization: Amedia
+startDate: July 2024
+endDate: Juny 2025
 ---
 
-Switched to Full Stack JS Developer.
+Worked as a Full Stack JS Developer at [Amedia](https://amedia.ua/) in the GovTech domain. My tasks are under NDA. But I used the technologies below:
 
-- Developed apps like [trinity](https://trinityrental.com/) with Next.js, TypeScript, tailwind, Vercel and Strapi with
-  another
-  developer 🎉
-- Developed telegram bots with Typescript, Telegraf, Puppeteer(Web scraping) for crypto industry 🎉
-- Supported Nest.js microservices (Mongoose, Swagger, Graphql, Typescript, PayPal, gRPC/TCP/RabbitMQ, Nginx,
-  docker-compose) 🎉
-- Developed a private analytical platform using node.js, ClickHouse, Grafana, apis (Binance, OXK, CoinMarketCap) and a React PWA 🎉
+Angular, TypeScript, NestJS, Node.js, MongoDB, PostgreSQL, Docker, Dokku, Kubernetes, GitLab CI/CD, Swagger, Redis, RabbitMQ, Nginx, OpenAPI, 
+OAuth2, JWT, GraphQL, RESTful APIs, Microservices architecture, Tableau, ChartJs
