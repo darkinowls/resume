@@ -14,6 +14,5 @@ Worked as a Fullstack Developer at [Gentleman's code](https://gent-code.com/) in
 - Supported existing Nest.js microservices (Mongoose, Swagger, Graphql, Typescript, PayPal, gRPC/TCP/RabbitMQ, Nginx,
   docker-compose) 🎉
 - Developed a private analytical platform using node.js, ClickHouse, Grafana, apis (Binance, OXK, CoinMarketCap) and a React PWA 🎉
-- Developed and supported mobile applications using Flutter with Django Rest Framework. 🎉
+- Developed and supported mobile applications using Flutter, React Native with Django Rest Framework, Keitaro, Appsflayer . 🎉
 - Deployed systems to the Cloud and Mobile stores. Set up CI/CD with Codemagic (Mobile app) and Github-actions (Backend). 🎉
-- Developed a lot of arbitration applications using Flutter or React Native, Keitaro, Appsflayer and my backends. 🎉
