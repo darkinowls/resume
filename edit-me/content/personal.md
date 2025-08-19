@@ -1,5 +1,5 @@
 ---
-givenName: Denys
+givenName: Denys (Dennis)
 familyName: Chernousov
 title: Software Engineer
 location: Ukraine
